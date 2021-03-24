@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f3f2da;
+}
+
+#main_div {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+#center {
+   display: flex;
+   flex-direction: column;
+   width:60vw;
+   position: absolute;
+   /*border:1px solid #0e49b5;*/
+   margin-top:7%;
+   left:20%;
+   padding:15px;
+}
+#center_1{
+	position: absolute;
+	margin-top:3%;
+	left: 20%;
+}
+h1,p {
+	font-family: verdana;
+}
+#p_1{
+	margin-top: 20px;
+	position: relative;
+	left:0;
+	font-size:1.87vw;
+	color:#290149;
+}
+ul {
+	list-style-type: none;
+	padding-left: 2vw;
+}
+li {
+	font-family: verdana;
+	margin-top: 1%;
+}
+b {
+	color: #161d6f;
+}
+#sub_p, #sub_p1 {
+	margin-top:2%;
+	margin-left: 2.4%;
+}
+#sub_p1{
+	margin-bottom: 1%;
+}
+img {
+	width:100%;
+}
+nav {
+	background-color: #682c0e;
+	width:100vw;
+	height:5vh;
+	/*position: fixed;*/
+	display: flex;
+	flex-direction: row;
+}
+
+#bars {
+	list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:4%;
+    cursor: pointer;  
+    /*text-align: center;  */
+}
+
+.bar {
+	width:20px;
+	height:2px;
+	background-color: #fff;
+	margin-top:5px;
+	
+}
+#myName {
+	position: absolute;
+	right:5%;
+	text-align: center;
+   
+   
+} 
+#name{
+	color:#fff;
+	font-family: cursive;
+	
+}
+
+#sec-div {
+    position: absolute;
+    top:960vh;
+    width:100vw;
+    height:30vh;
+    background-color: #822659;
+    text-align: center;
+
+}
+h3 {
+	color:#fff;
+	font-family: cursive;
+}
+h2 {
+	margin-top: 2%;
+	color:#fff;
+	font-family: cursive;
+}
+#sec_span{
+	position: absolute;
+	margin-top:5.65%;
+	color: #fff;
+    left:42%;
+}
+
+#mobile_version {
+	display: none;
+	margin-left: 5%;
+	margin-top: 10%;
+}
+#mob_h1 {
+	margin-top: 15%;
+	margin-left: 15%;
+}
+#sidebar {
+	position: absolute;
+	top:0;
+	display: none;
+}
+#sidebar1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar1 li {
+	margin-left: 25px;
+	color: #fff;
+	cursor: pointer;
+}
+#sidebar1 li a {
+	text-decoration: none;
+	color:white;
+}
+#sidebar1 li a:hover {
+	color: orange;
+}
+#bars_sec {
+	cursor: pointer;
+	margin-top: 1%;
+}
+#first_span {
+	color:#fff;
+}
+@media all and (max-width: 767px){
+	#desktop {
+		display: none;
+	}
+	#mobile_version {
+		display: block;
+	}
+}
+
